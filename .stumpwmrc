@@ -1,0 +1,7 @@
+;; -*-lisp-*-
+(in-package :stumpwm)
+
+(require 'swank)
+(swank:create-server)
+
+(load "~/.stumpwm.d/init.lisp")

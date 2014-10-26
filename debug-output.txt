@@ -1,0 +1,9 @@
+
+debugger invoked on a XLIB:WINDOW-ERROR in thread
+#<THREAD "main thread" RUNNING {1003ECB7C3}>:
+  WINDOW-ERROR in current request  Code 3.0 [GetWindowAttributes] ID #x1600007
+STYLE-WARNING:
+   redefining THREAD-FOR-EVALUATION (#<STRUCTURE-CLASS
+                                       MULTITHREADED-CONNECTION>
+                                     #<SB-MOP:EQL-SPECIALIZER
+                                       {100729FE93}>) in DEFMETHOD

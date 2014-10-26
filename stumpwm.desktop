@@ -1,0 +1,10 @@
+# This file should be copied to /usr/share/xessions/stumpwm.desktop
+# It assumes that anyone logging in to stumpwm should have an
+# ~/.stumpwm directory with a start-stumpwm script in it.
+[Desktop Entry]
+Encoding=UTF-8
+Name=StumpWM
+Comment=Lisp powered window manager
+Exec=.stumpwm.d/start-stumpwm
+Icon=custom_xmonad_badge.png
+Type=XSession
