@@ -81,16 +81,16 @@ xrandr | grep 'DP-1 connected' | ifne xrandr --output DP-1 --auto --left-of LVDS
 # - window-strut "none" means windows are allowed to cover the tray. In
 #   other words, trust xmonad to handle this part.
 #
-# stalonetray \
-#     --icon-gravity E \
-#     --geometry 9x1-0+0 \
-#     --max-geometry 9x1-0+0 \
-#     --background '#1f1f1f' \
-#     --skip-taskbar \
-#     --icon-size 24 \
-#     --kludges force_icons_size \
-#     --window-strut none \
-&
+# stalonetray 
+# --icon-gravity E \
+# --geometry 9x1-0+0 \
+# --max-geometry 9x1-0+0 \
+# --background '#1f1f1f' \
+# --skip-taskbar \
+# --icon-size 24 \
+# --kludges force_icons_size \
+# &
+
 
 
 # Run the gnome-keyring-daemon to avoid issues you otherwise may encounter
