@@ -7,3 +7,13 @@ STYLE-WARNING:
                                        MULTITHREADED-CONNECTION>
                                      #<SB-MOP:EQL-SPECIALIZER
                                        {100729FE93}>) in DEFMETHOD
+STYLE-WARNING:
+   redefining THREAD-FOR-EVALUATION (#<STRUCTURE-CLASS
+                                       MULTITHREADED-CONNECTION>
+                                     #<SB-MOP:EQL-SPECIALIZER
+                                       {10072B0383}>) in DEFMETHOD
+STYLE-WARNING:
+   redefining THREAD-FOR-EVALUATION (#<STRUCTURE-CLASS
+                                       MULTITHREADED-CONNECTION>
+                                     #<SB-MOP:EQL-SPECIALIZER
+                                       {10072B0383}>) in DEFMETHOD

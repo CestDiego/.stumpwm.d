@@ -71,8 +71,8 @@ xinput set-prop $TOUCHPAD_ID "Device Enabled" 1
 # xmonad related, but it's handy if you're a vim user.
 setxkbmap -option 'ctrl:no caps'
 
-xmodmap -e 'keycode 133 = F20'
-xmodmap -e 'clear mod4'
+# xmodmap -e 'keycode 133 = F20'
+# xmodmap -e 'clear mod4'
 
 # So this is just to start programs by default, lets try with Emacs first
 
