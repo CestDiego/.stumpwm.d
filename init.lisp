@@ -47,6 +47,8 @@
 (define-key *top-map* (kbd "XF86AudioPrev")        "exec ncmpcpp prev")
 (define-key *top-map* (kbd "XF86AudioStop")        "exec ncmpcpp stop")
 
+;; (define-key *top-map* (kbd "M-1")        "gnext")
+
 (define-key *top-map* (kbd "M-ISO_Left_Tab") "prev-in-frame")
 (define-key *top-map* (kbd "M-TAB") "next-in-frame")
 (define-key *top-map* (kbd "XF86TouchpadToggle") "toggle-mouse")
