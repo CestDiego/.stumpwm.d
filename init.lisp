@@ -59,11 +59,11 @@
 ;;
 ;; Insertions into root level bindings.
 ;;
-(define-key *root-map* (kbd "Print") "exec  sleep 0.2; scrot -e 'mv $f /home/io/Pictures/Screenshots/' & mplayer /usr/share/sounds/freedesktop/stereo/screen-capture.oga")
+(define-key *top-map* (kbd "Print") "exec  sleep 0.2; scrot -e 'mv $f /home/io/Pictures/Screenshots/' & mplayer /usr/share/sounds/freedesktop/stereo/screen-capture.oga")
 
-(define-key *root-map* (kbd "p") "dmenu")
-(define-key *root-map* (kbd "RET") "term")
-(define-key *root-map* (kbd "C-.") "gnext")
+(define-key *top-map* (kbd "p") "dmenu")
+(define-key *top-map* (kbd "RET") "term")
+(define-key *top-map* (kbd "C-.") "gnext")
 (define-key *root-map* (kbd "C-,") "gprev")
 
 (define-key *root-map* (kbd "C-s") "swank")

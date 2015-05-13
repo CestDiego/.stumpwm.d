@@ -93,5 +93,3 @@ echo "0" | sudo tee -a /sys/devices/platform/asus-nb-wmi/leds/asus::kbd_backligh
 if [ -z "$(pgrep emacs)" ] ; then
     emacs &
 fi
-
-mopidy &

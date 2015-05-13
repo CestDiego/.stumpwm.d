@@ -5,4 +5,5 @@
 
 (swank:create-server :port 4005 :dont-close t)
 
-(load "~/.stumpwm.d/init.lisp")
+(load "/home/io/.stumpwm.d/stumpwm-contrib/media/amixer/amixer.lisp")
+;; (load "~/.stumpwm.d/init.lisp")

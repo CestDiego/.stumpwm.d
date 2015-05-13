@@ -8,7 +8,7 @@
 "Wallpaper command.")
 
 ;; Use Xcursor theme
-(run-shell-command "xsetroot -cursor_name left_ptr -fg white -bg black")
+(run-shell-command "xsetroot -cursor_name left_ptr -fg black -bg black")
 
 (run-shell-command *wallpaper-command*)
 
